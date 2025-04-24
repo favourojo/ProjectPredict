@@ -4,3 +4,26 @@ ProjectPredict is a a machine learning project that utilizes data from DonorsCho
 ---
 
 ## Repository Structure 
+
+
+## Installation & Setup 
+
+### 1. Clone the repository 
+```bash
+git clone https://github.com/favourojo/ProjectPredict.git
+cd ProjectPredict
+```
+
+### 2. Create a virtual environment 
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+### 3. Install dependencies
+pip install -r requirements.txt
+
+### 4. Run the pipeline 
+
+
+
+
+
