@@ -1,9 +1,6 @@
 # DonarsChoose Project Funding Predictions
 
-## Problem 
-Public schools often face large disparities in funding, which results in teachers and staff members utilizing their personal funds to purchase classroom supplies. DonorsChoose is an online crowdfunding platform that exists so educators can seek funding for projects and resources from the community. These projects will be able to reduce the financial burden teachers take on so their students have good education. However, projects on DonorsChoose expire after 4 months, and if the target funding level is not reached, the project receives no funding. If these projects are not getting funded, those students affected will nto be able to learn as effectively because of the lack of resources. We are hoping these kinds of projects will be prioritized so they will be able to be fully funded before they eventualyl expire on DonorsChoose
+ProjectPredict is a a machine learning project that utilizes data from DonorsChoose to identify projects that are least likely to be funded before they exprire. This tool aims to assist educators and donors by highlighting projects that may need additional support.
+---
 
-## Data 
-Our data will be from the KDD Cup 2014 dataset that was utilized to predict excitement at DonorsChoose.org. 
-(https://www.kaggle.com/competitions/kdd-cup-2014-predicting-excitement-at-donors-choose/data)
-This dataset will contain different projects that were posted to the website requesting funding of different types. 
+## Repository Structure 
