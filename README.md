@@ -10,7 +10,7 @@ The project merges datasets containing project details, donation history, and fu
 - One-hot encoding categorical features
 
 ## Model Training
-# Combining Random Forest & Logistic Regression for Optimized Ranking
+## Combining Random Forest & Logistic Regression for Optimized Ranking
 
 Our ranking model leverages both **Random Forest and Logistic Regression** to balance **feature discovery and precision optimization**.
 
