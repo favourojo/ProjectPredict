@@ -15,13 +15,37 @@ cd ProjectPredict
 ```
 
 ### 2. Create a virtual environment 
-python3 -m venv venv
+```python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 ### 3. Install dependencies
-pip install -r requirements.txt
+```pip install -r requirements.txt
+```
 
-### 4. Run the pipeline 
+## Data Processing
+The project merges datasets containing project details, donation history, and funding outcomes. It includes:
+- Data cleaning and preprocessing (handling missing values, timestamp conversions)
+- Feature engineering (interaction terms between state, poverty level, and donations)
+- One-hot encoding categorical features
+
+## Model Training
+The ranking model is built using `RandomForestClassifier`:
+- Features include subject focus, resource type, donations per student, and state interactions
+- Training data is split, with iterative refinement to test precision improvements
+- Performance evaluation is done using precision metrics
+
+## Usage
+Run the Jupyter notebook (`Rank.ipynb`) to:
+1. Load and preprocess data
+2. Train the ranking model
+3. Evaluate predictions and ranking output
+
+## Future Enhancements
+- Investigate alternative models like XGBoost and CatBoost for better handling of categorical features
+- Experiment with additional interaction terms for improved prediction accuracy
+- Optimize dataset chunking for large-scale processing
+
 
 
 
