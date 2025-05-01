@@ -36,8 +36,7 @@ cd ProjectPredict
 
 ### 2. Create a virtual environment 
 ```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+jupyter lab
 ```
 
 ### 3. Install dependencies
