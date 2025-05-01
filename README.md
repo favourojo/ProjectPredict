@@ -35,12 +35,14 @@ cd ProjectPredict
 ```
 
 ### 2. Create a virtual environment 
-```python3 -m venv venv
+```bash
+python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 ### 3. Install dependencies
-```pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
 ```
 
 
